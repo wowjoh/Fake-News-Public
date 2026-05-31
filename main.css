@@ -1,0 +1,58 @@
+.input-container {
+    height: 70px;
+    width: 50%;
+    margin-left: 620px;
+    background: white;
+    border: 3px solid #E2E2E2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;   /* 세로 방향 정렬 */
+    align-items: center;
+}
+
+.user-input {
+    height: 100%;
+    width: 94.5%;
+    background: white;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.input-btn {
+    height: 105%;
+    width: 5.05%;
+    background-color: #E2E2E2;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: 2px;
+    margin-left: auto;
+}
+
+.재검사 {
+    height: 50px;
+    width: 70px;
+    background-color: #E2E2E2;
+    border: none;
+    display: none;
+    margin-top: 10px;
+    margin-left: 620px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 620px;
+}
+
+.문항 {
+    float: left;
+}
+
+.check {
+    margin-left: 5px;
+}

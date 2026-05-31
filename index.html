@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="heading">프로그램</h1>
+    <p class="title">1. 위험 키워드 자동 탐지</p>
+    <div class="input-container">
+        <input class="user-input" type="text" placeholder="  글 또는 URL 입력">
+        <button class="input-btn">입력</button>
+    </div>
+    <button class="재검사">재검사</button>
+    <div style="width: 50%; word-break: break-all; margin-left: 620px;">
+        <p class="chat-box"></p>
+    </div>
+    
+
+    <p class="title">2. 체크리스트</p>
+    <p style="margin-left: 620px; font-size: 20px;">1) 언어 형식으로서의 문제 판단</p>
+    <ol style="margin-left: 620px;">
+        <li style="clear: both;">
+            <p class="문항">'의혹이 제기되고 있다.' 같이 주체가 없는 표현들을 사용해 문제를 드러내고 있나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+        <li style="clear: both;">
+            <p class="문항">언제, 어디서, 누가, 무엇을 했는지 중요한 정보가 빠져 있나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+        <li style="clear: both;">
+            <p class="문항">대상에 대한 중립적이지 않은 편향된 관점이 들어간 어휘로 이름을 지었나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+        <li style="clear: both;">
+            <p class="문항">사실 설명이 아니라 비유나 과장된 표현으로 감정을 자극하고 있나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+        <li style="clear: both;">
+            <p class="문항">제목과 실제 내용이 다른가요?</p>
+            <input type="checkbox" class="check">
+        </li>
+    </ol>
+    <p style="margin-left: 620px; font-size: 20px;">2) 내용과 사용자 심리와 관련된 문제 판단</p>
+    <ol style="margin-left: 620px;">
+        <li style="clear: both;">
+            <p class="문항">단지 본인 생각과 같아서 믿게 되었나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+        <li style="clear: both;">
+            <p class="문항">이 내용을 보고 화나거나 놀라는 감정이 들어서 더 믿게 되었나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+        <li style="clear: both;">
+            <p class="문항">여러 번 봐서 익숙함 때문에 진실처럼 여기고 있나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+        <li style="clear: both;">
+            <p class="문항">'좋아요'나 동의하는 댓글 수가 많아서 믿고 있나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+        <li style="clear: both;">
+            <p class="문항">이 글을 믿게됨으로써 특정 집단이 이득을 볼 것 같나요?</p>
+            <input type="checkbox" class="check">
+        </li>
+    </ol>
+
+    <div style="height: 50px; width: 200px; margin-top: 20px; margin-left: 620px; background-color: #E2E2E2; padding-top: 10px;">
+        <p class="checked" style="font-size: 20px; text-align: center;">체크리스트 결과</p>
+    </div>
+
+   <p class="title">3. 최종 판단</p>
+    <p style="margin-left: 620px; font-size: 20px;">
+        <input type="radio" name="판단" checked> 신뢰 가능<br>
+        <input type="radio" name="판단"> 추가 확인 후 판단<br>
+        <input type="radio" name="판단"> 신뢰 불가능<br>
+    </p>
+    
+    
+
+    
+    
+    <script src="script.js"></script>
+    <!-- bootstrap 로드 코드 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+</body>
+</html>
